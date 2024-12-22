@@ -1,0 +1,16 @@
+
+table{
+    display: none;
+    /* border:1px solid black; */
+    width: 500px;
+    /* height: 100px; */
+    text-align: center;
+}
+td,th{
+    text-align: center;
+    border:1px solid black;
+}
+table,td,th{
+    border-collapse: collapse;
+    /* height: 100px; */
+}

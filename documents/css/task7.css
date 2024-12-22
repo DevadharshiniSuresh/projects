@@ -1,0 +1,46 @@
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+
+body
+{
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/11/17/09/mountains-8567074_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    text-align: center;
+    border-radius: 10px;
+    background-color: pink;
+    box-shadow: 10px 10px 30px 20px white;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-image: url("https://cdn.pixabay.com/photo/2024/03/18/02/40/whooper-swans-8640045_1280.jpg");
+}
+#login{
+    color: purple;
+}
+#match{
+    color: green;
+    display: none;
+}
+#notmatch{
+    color: red;
+    display: none;
+ 
+}
+#msg{
+    display: none;
+    color: red;
+}
+i{
+   margin-right: -15px;
+   /* margin-left: -20px; */
+}
+

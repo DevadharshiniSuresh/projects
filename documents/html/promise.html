@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         /* select {
+            width: 30%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        #temp{
+            text-align: center;
+        }
+        #chn{
+            background-image: url("https://cdn.pixabay.com/photo/2017/03/27/21/38/sunset-2180346_1280.jpg");
+        } */
+        #container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.content {
+    border: 1px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    background-color:darkseagreen;
+    /* box-sizing: border-box; */
+}
+
+.content img {
+    margin: 10px 0;
+    margin-left: 25%;
+
+}
+
+.content h1, .content p {
+    margin-left: 20px;
+}
+
+button {
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+.content:hover{
+    transform: scale(1);
+    box-shadow: 10px 10px 10px 10px  black;
+}
+       
+    </style>
+</head>
+<body>
+   <!-- <div id="temp">
+    <h1>City Temperature</h1>
+   
+    <select id="city">
+        <option value="">Select a city</option>
+        <option value="Chennai" id="chn">Chennai</option>
+        <option value="Coimbatore" id="cbe">Coimbatore</option>
+        <option value="Bangalore" id="blr">Bangalore</option>
+    </select>
+
+</div>  --> 
+<div id="container" >
+
+</div>
+
+    <script src="../js/promise.js"></script>
+</body>
+</html>
